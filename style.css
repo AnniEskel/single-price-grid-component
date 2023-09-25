@@ -120,10 +120,16 @@ li {
         display: flex;
         flex-direction: column;
         max-width: 375px;
+        margin: 0 auto;
     }
     .left-box {
+        display: flex;
+        flex-direction: column;
         border-radius: 0;
     }
+    .right-box {
+        display: flex;
+        flex-direction: column;
 }
 
 .attribution {
